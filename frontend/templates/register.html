@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="../static/register.css">
 </head>
 <body>
-    <div class="registration">
+    <form class="registrationForm">
         <h2>Регистрация</h2>
         <label for="login">Login:
         <input type="text" id="login" placeholder="Введите ваш Login" maxlength="30">
-        </label>Email:
-        <label><input type="email" id="email" placeholder="Введите Email" maxlength="50">
-        </label> for="email"
-        <label for="password">Пароль:<input type="password" id="password"
+        </label>
+        <label for="email">Email:
+            <input type="email" id="email" placeholder="Введите Email" maxlength="50">
+        </label>
+        <label for="password">Пароль: <input type="password" id="password"
                                             placeholder="Введите пароль" maxlength="128"></label>
-        <label for="repeat password">Повторите пароль:
-            <input type="password" id="repeat password" placeholder="Повторите пароль" maxlength="128"></label>
+        <label for="repeat-password">Повторите пароль:
+            <input type="password" id="repeat-password" placeholder="Повторите пароль" maxlength="128"></label>
         <button type="submit">Отправить!</button>
-    </div>
+    </form>
+    <script src="scripts/registration.js"></script>
 </body>
 </html>
